@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* .latar{
+      background-color: blue;
+    } */
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <h1 id=style="font-weight: bold;">Aplikasi Ubah Warna</h1>
+  </div>
+  <div>
+    <textarea name="" id="sampleText" cols="80" rows="30">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis pariatur expedita labore aliquid eaque culpa quam quibusdam! In, neque quo sit assumenda ad inventore quae soluta est quasi aspernatur ducimus.</textarea>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 20px">
+    <div>
+      <label for="">Warna latar: </label>
+      <input type="color" id="bg-color" />
+    </div>
+
+    <div>
+      <label for="">Warna teks: </label>
+      <input type="color" id="teks-color" />
+    </div>
+
+    <div>
+      <label for="">Ukuran font: </label>
+      <input type="text" id="ukuran-teks" />
+    </div>
+
+    <div>
+      <label for="">Lebar font: </label>
+      <select id="lebar-teks">
+        <option value="">Silahkan Pilih</option>
+        <option value="normal">Normal</option>
+        <option value="bold">Bold</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="">Transformasi teks: </label>
+      <select id="transformasi-teks">
+        <option value="">Silahkan Pilih</option>
+        <option value="uppercase">UPPERCASE</option>
+        <option value="lowercase">LOWERCASE</option>
+      </select>
+    </div>
+<div>
+      <label for="">Kesejajaran teks: </label>
+      <select id="kesejajaran-teks">
+        <option value="">Silahkan Pilih</option>
+        <option value="left">Kiri</option>
+        <option value="right">Kanan</option>
+        <option value="center">Tengah</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="">Buat nomor acak: </label>
+      <button id="random-number">Acak nomor</button>
+    </div>
+  </div>  
+  <script src="script.js"></script>
+</body>
+</html>
