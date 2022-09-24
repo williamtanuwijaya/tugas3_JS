@@ -16,7 +16,7 @@
     <h1 id=style="font-weight: bold;">Aplikasi Ubah Warna</h1>
   </div>
   <div>
-    <textarea name="" id="sampleText" cols="80" rows="30">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis pariatur expedita labore aliquid eaque culpa quam quibusdam! In, neque quo sit assumenda ad inventore quae soluta est quasi aspernatur ducimus.</textarea>
+    <textarea name="textarea" id="sampleText" cols="80" rows="30">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis pariatur expedita labore aliquid eaque culpa quam quibusdam! In, neque quo sit assumenda ad inventore quae soluta est quasi aspernatur ducimus.</textarea>
   </div>
   <div style="display: flex; flex-direction: column; gap: 20px">
     <div>
@@ -53,11 +53,11 @@
     </div>
 <div>
       <label for="">Kesejajaran teks: </label>
-      <select id="kesejajaran-teks">
+      <select id="kesejajaran-teks" onchange="change(this)">
         <option value="">Silahkan Pilih</option>
-        <option value="left">Kiri</option>
-        <option value="right">Kanan</option>
-        <option value="center">Tengah</option>
+        <option value="left" id="1">Kiri</option>
+        <option value="right" id="2">Kanan</option>
+        <option value="center" id="3">Tengah</option>
       </select>
     </div>
 
@@ -66,6 +66,9 @@
       <button id="random-number">Acak nomor</button>
     </div>
   </div>  
+
+  <p id="tests">xxxx</p>
+
   <script src="script.js"></script>
 </body>
 </html>
